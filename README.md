@@ -6,10 +6,10 @@ This is an Android library project that enables OPENi native developers to visua
 
 * Add the following line to your AndroidManifest.xml:
 
-    <activity android:name="com.openi.permissions.PermissionsActivity" android:label="Permissions" />
+        <activity android:name="com.openi.permissions.PermissionsActivity" android:label="Permissions" />
 
-* To start PermissionsActivity:
+* To start PermissionsActivity add the following at one of your activities:
 
-    startActivity(new Intent(HomeActivity.this, PermissionsActivity.class));
+        startActivity(new Intent(HomeActivity.this, PermissionsActivity.class));
 
 
