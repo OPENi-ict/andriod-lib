@@ -12,6 +12,6 @@ This is an Android library project that enables OPENi native developers to visua
 
 * To start PermissionsActivity add the following at one of your activities:
 
-        startActivity(new Intent(HomeActivity.this, PermissionsActivity.class));
+        startActivity(new Intent(this, PermissionsActivity.class));
 
 
